@@ -10,7 +10,6 @@ def post_new_user(user_body):
         headers=data.headers
     )
 
-#print(post_new_user({'firstName': 'ab', 'phone': '+10005553535', 'address': '8042 Lancaster Ave.Hamburg, NY'}).json())
 
 # funcion para crear un Kit
 def post_new_kit(kit_body):
